@@ -1,5 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use("TkAgg")
+from matplotlib import pyplot as plt
+#import matplotlib.pyplot as plt
 
 def make_integral_array(power_array: list, integration_period: int):
     to_return = [0]
